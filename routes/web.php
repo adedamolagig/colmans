@@ -39,6 +39,12 @@ Route::get('/staffPages/baBello', 'StaffController@baBello')->name('baBello');
 Route::get('/staffPages/gcDaramola', 'StaffController@gcDaramola')->name('gcDaramola');
 Route::get('/staffPages/mkOnifade', 'StaffController@mkOnifade')->name('mkOnifade');
 
+// Routes to get departments page
+Route::get('/departments/accounting', 'DepartmentController@accounting')->name('accounting');
+Route::get('/departments/BusAdmin', 'DepartmentController@businessAdministration' )->name('BusAdmin');
+Route::get('/departments/economics', 'DepartmentController@economics')->name('economics');
+Route::get('/departments/finance', 'DepartmentController@finance')->name('finance');
+
 
 
 

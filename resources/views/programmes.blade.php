@@ -5,7 +5,7 @@
 <!-- services -->
 	<div class="services" id="services">
 		<div class="container">
-			<h3 class="wthree_head"><i class="fa fa-book" aria-hidden="true"></i><span>Programmes</span></h3>
+			<h3 class="wthree_head"><i class="fa fa-book" aria-hidden="true"></i><span>Departments</span></h3>
 
 			<div class="agileinfo_services_grids">
 				<div class="col-md-4 agileinfo_services_grid">
@@ -21,7 +21,7 @@
 				</div>
 				<div class="col-md-4 agileinfo_services_grid">
 					<div class="agileinfo_services_grid_left">
-						<a href=""><h1>Business Comp</h1></a>
+						<a href=""><h1>Business Administration</h1></a>
 					</div>
 					<div class="agileinfo_services_grid_right">
 						<span class="fa fa-laptop fa-4x"></span>
@@ -41,53 +41,10 @@
 					<p>Aliquam ex orci, dapibus eu facilisis non, scelerisque id nisl. 
 						Praesent at tincidunt nisi. Aliquam molestie sem a purus pharetra.</p>
 				</div>
-				<div class="col-md-4 agileinfo_services_grid">
-					<div class="agileinfo_services_grid_left">
-						<a href=""><h1>Finance & Banking</h1></a>
-					</div>
-					<div class="agileinfo_services_grid_right">
-						<span class="fa fa-graduation-cap fa-4x"></span>
-					</div>
-					<div class="clearfix"> </div>
-					<p>Aliquam ex orci, dapibus eu facilisis non, scelerisque id nisl. 
-						Praesent at tincidunt nisi. Aliquam molestie sem a purus pharetra.</p>
-				</div>
+				
 
 
-				<div class="col-md-4 agileinfo_services_grid">
-					<div class="agileinfo_services_grid_left">
-						<a href=""><h1>Human Resource Management</h1></a>
-					</div>
-					<div class="agileinfo_services_grid_right">
-						<span class="fa fa-user fa-4x"></span>
-					</div>
-					<div class="clearfix"> </div>
-					<p>Aliquam ex orci, dapibus eu facilisis non, scelerisque id nisl. 
-						Praesent at tincidunt nisi. Aliquam molestie sem a purus pharetra.</p>
-				</div>
-
-				<div class="col-md-4 agileinfo_services_grid">
-					<div class="agileinfo_services_grid_left">
-						<a href=""><h1>International Business</h1></a>
-					</div>
-					<div class="agileinfo_services_grid_right">
-						<span class="fa fa-trophy fa-4x"></span>
-					</div>
-					<div class="clearfix"> </div>
-					<p>Aliquam ex orci, dapibus eu facilisis non, scelerisque id nisl. 
-						Praesent at tincidunt nisi. Aliquam molestie sem a purus pharetra.</p>
-				</div>
-				<div class="col-md-4 agileinfo_services_grid">
-					<div class="agileinfo_services_grid_left">
-						<a href="#"><h1>Marketing</h1></a>
-					</div>
-					<div class="agileinfo_services_grid_right">
-						<span class="fa fa-briefcase fa-4x"></span>
-					</div>
-					<div class="clearfix"> </div>
-					<p style="color:red">Aliquam ex orci, dapibus eu facilisis non, scelerisque id nisl. 
-						Praesent at tincidunt nisi. Aliquam molestie sem a purus pharetra.</p>
-				</div>
+				
 				<div class="col-md-4 agileinfo_services_grid">
 					<div class="agileinfo_services_grid_left">
 						<a href="#"><h1>Project Management</h1></a>

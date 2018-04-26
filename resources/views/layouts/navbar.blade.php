@@ -3,8 +3,6 @@
         <div class="header-top-nav">
             <p>
                 <a href="#" class="fa fa-envelope {{ Request::is('#')? 'active' : '' }}" aria-hidden="true"> NEWSLETTER </a>
-               <!--  <a href="{{ route('login') }}" class="fa fa-key {{ Request::is('login')? 'active' : '' }}" aria-hidden="true"> LOGIN</a>
-                <a href="{{ route('register') }}" class="fa fa-user {{ Request::is('register')? 'active' : '' }}" aria-hidden="true"> APPLY</a> -->
             </p>
         </div>
     </div>
@@ -43,15 +41,15 @@
                                     <span>g</span><span>a</span><span>l</span><span>l</span><span>e</span><span>r</span><span>y</span>                  
                                 </a>
                             </li>
-                            <li class="{{ Request::is('programmes')? 'active' : '' }} dropdown">
-                                <a class="link link--yaku scroll dropdown-toggle" data-toggle="dropdown" href=" {{ route('programmes') }} ">
+                            <li class="{{ Request::is('programmes')? 'active' : '' }}">
+                                <a class="link link--yaku scroll" data-toggle="dropdown">
                                     <span>Dep</span><span>art</span><span>men</span><span>ts</span>                   
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Accounting</a></li>
-                                    <li><a class="dropdown-item" href="#">Business Administration</a></li>
-                                    <li><a class="dropdown-item" href="#">Economics</a></li>
-                                    <li><a class="dropdown-item" href="#">Finance</a></li>
+                                    <li><a class="dropdown-item" href=" {{route('accounting')}} ">Accounting</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('BusAdmin') }}">Business Administration</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('economics') }}">Economics</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('finance') }}">Finance & Banking</a></li>
                                     <li><a class="dropdown-item" href="#">Project Management</a></li>
                                 </ul>
                             </li>
