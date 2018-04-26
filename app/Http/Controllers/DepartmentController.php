@@ -25,4 +25,9 @@ class DepartmentController extends Controller
     {
     	return view('departments.finance');
     }
+
+    public function projectManagement()
+    {
+    	return view('departments.ProjectMgt');
+    }
 }

@@ -10,14 +10,14 @@
       </div>
 		<div class="container" style="background: white; text-align: justify-all;">
 			<div class="row">
-				<div class="col-md-2">
+				<div class="col-md-3">
 					<div class="Placeholder">
-		              <img src="/images/osEnilolobo.jpg" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
+		              <img src="/images/osEnilolobo.jpg" width="200%" height="200%" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
 		              <h4>Label</h4>
 		              <span class="text-muted">Dr. Imoparia </span>
 		            </div>
 				</div>
-				<div class="col-md-8">
+				<div class="col-md-9">
 					<p>Thank you for visiting the portal of the college of management sciences. It is indeed a great pleasure for
 					me to warmly welcome you to this college. The college is for you, and those of us in the college consider
 					ourselves very much dedicated to helping you find your bearing in the course, processes and degrees we

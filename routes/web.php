@@ -44,6 +44,7 @@ Route::get('/departments/accounting', 'DepartmentController@accounting')->name('
 Route::get('/departments/BusAdmin', 'DepartmentController@businessAdministration' )->name('BusAdmin');
 Route::get('/departments/economics', 'DepartmentController@economics')->name('economics');
 Route::get('/departments/finance', 'DepartmentController@finance')->name('finance');
+Route::get('/departments/Project_Management', 'DepartmentController@projectManagement')->name('ProjMgt');
 
 
 
