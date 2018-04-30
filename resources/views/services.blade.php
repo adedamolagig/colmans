@@ -5,11 +5,11 @@
 <!-- services -->
 	<div class="services" id="services">
 		<div class="container" style="">
-			<h3 class="wthree_head"><i class="fa fa-book" aria-hidden="true"></i><span>COLMANS</span>Special Services</h3>
+			<h3 class="wthree_head"><i class="fa fa-book" aria-hidden="true"></i><span>COLMANS</span>WHO WE ARE</h3>
 			<div class="agileinfo_services_grids">
 				<div class="col-md-4 agileinfo_services_grid">
 					<div class="agileinfo_services_grid_left">
-						<a  href="{{ route('team') }}"><h1>Faculty</h1></a>
+						<a  href="{{ route('team') }}"><h1>College Members</h1></a>
 					</div>
 					<div class="agileinfo_services_grid_right">
 						<span class="fa fa-university fa-4x" aria-hidden="true"></span>
