@@ -26,10 +26,9 @@
 					<p>These departments are unified by one specific goal of dishing the students’ world class managerial skills
 					that makes these students stand out wherever they find themselves.</p>
 					
-					<p><strong>VISION</strong></p>
-					<p>The Vision of the college is to be a world-renowned college of management sciences that is committed to
-					the development and transformation of the society through the dissemination of world class managerial
-					and business education</p>
+					<p><strong>OBJECTIVES</strong></p>
+					<p>The general objectives of the programme is to provide a comprehensive exposure to the dynamics of Business Administration for the wellbeing of individual and the society with the aim of producing readily acceptable personnel for growth and development of the economy. </p>
+					<p>The specific objectives of the Bachelor of science Degree in Business Administration are to:</p>
 					<p><strong>MISSION</strong></p>
 					<p>The mission of the college is to provide quality undergraduate and postgraduate educational programmes
 					that produce individuals who are well prepared for management and business careers that will assist the
