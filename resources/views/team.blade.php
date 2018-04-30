@@ -11,7 +11,7 @@
 			<div class="container col-md-offset-4">
 				<div class="col-md-4 agileits_team_grid">
 					<div class="agileits_team_grid_figure">
-						<img src="images/osEnilolobo.jpg" alt=" " class="img-responsive" />
+						<img src="/images/colmans/1.jpg" alt=" " class="img-responsive" />
 					</div>
 					<!-- <div class="agileits_team_grid_figure_social">
 						<ul class="w3ls_social">

@@ -12,7 +12,7 @@
 			<div class="row">
 				<div class="col-md-3">
 					<div class="Placeholder">
-		              <img src="/images/mkOnifade.jpg" width="200%" height="200%" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
+		              <img src="/images/colmans/3.jpg" width="200%" height="200%" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
 		              <h4>Label</h4>
 		              <span class="text-muted">Dr. Morakinyo K. Onifade</span>
 		            </div>

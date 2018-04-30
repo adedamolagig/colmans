@@ -1,6 +1,7 @@
 <div class="banner">
     <div class="container">  
         <div class="header-top-nav">
+            <h1><a class="navbar-brand" href="/"> College of Management Sciences </a></h1>
             <p>
                 <a href="#" class="fa fa-envelope {{ Request::is('#')? 'active' : '' }}" aria-hidden="true"> NEWSLETTER </a>
             </p>
@@ -16,7 +17,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <h1><a class="navbar-brand" href="/"> College of Management Sciences </a></h1>
+                    <!-- <a class="navbar-brand" href="/"> College of Management Sciences </a> -->
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
@@ -31,7 +32,7 @@
 
                             <li class="{{ Request::is('services')? 'active' : '' }}">
                                 <a class="link link--yaku" href="{{ route ('services') }}">
-                                    <span>S</span><span>e</span><span>r</span><span>v</span><span>i</span><span>c</span><span>e</span><span>s</span>                    
+                                    <span>W</span><span>h</span><span>o</span>&nbsp <span>w</span><span>e</span>&nbsp<span>a</span><span>r</span><span>e</span>                    
                                 </a>
                             </li>
 
@@ -46,10 +47,10 @@
                                     <span>Dep</span><span>art</span><span>men</span><span>ts</span>                   
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href=" {{route('accounting')}} ">Accounting</a></li>
+                                    <li><a class="dropdown-item" href=" {{route('accounting')}} ">Accounting, Economics and Finance</a></li>
                                     <li><a class="dropdown-item" href="{{ route('BusAdmin') }}">Business Administration</a></li>
-                                    <li><a class="dropdown-item" href="{{ route('economics') }}">Economics</a></li>
-                                    <li><a class="dropdown-item" href="{{ route('finance') }}">Finance & Banking</a></li>
+                                    <!-- <li><a class="dropdown-item" href="{{ route('economics') }}">Economics</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('finance') }}">Finance & Banking</a></li> -->
                                     <li><a class="dropdown-item" href=" {{ route('ProjMgt') }} ">Project Management</a></li>
                                 </ul>
                             </li>

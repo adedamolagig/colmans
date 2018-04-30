@@ -12,9 +12,9 @@
 			<div class="row">
 				<div class="col-md-3">
 					<div class="Placeholder">
-		              <img src="/images/osEnilolobo.jpg" width="200%" height="200%" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
+		              <img src="/images/colmans/8.jpg" width="200%" height="200%" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
 		              <h4>Label</h4>
-		              <span class="text-muted">Dr. Oluwafemi S. Enilolobo</span>
+		              <span class="text-muted">Dr. Lawrence A.E. Imeokparia</span>
 		            </div>
 				</div>
 				<div class="col-md-9">
