@@ -131,7 +131,7 @@
                 <label for="question" class="col-md-4 control-label"><p>Please type your question for the admission team</p></label>
 
                 <div class="col-md-6">
-                    <textarea rows="5" cols="50" name="question">
+                    <textarea rows="10" cols="100" name="question">
                       
                     </textarea>
                     @if ($errors->has('question'))
@@ -145,7 +145,7 @@
             <div class="form-group">
                 <div class="col-md-6 col-md-offset-4">
                     <button type="submit" class="btn btn-primary">
-                        Register
+                        Contact College of Management Science
                     </button>
                 </div>
             </div>

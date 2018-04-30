@@ -21,15 +21,14 @@
 					</div> -->
 					<div class="clearfix"> </div>
 					<a href="{{ route('osEnilolobo') }}"><h4>Olorunfemi Enilolobo <span>Ag. Dean</span></h4></a>
-					<p>Morbi non elit sed neque rhoncus maximus ac at enim. 
-						Praesent a nisi sit amet risus semper laoreet et nec eros.</p>
+					<p>The Dean of the College uses the medium to introduce the wealth of knowledge he build the college with...</p>
 				</div>
 			</div>
 
 			<div class="agileits_team_grids">
 				<div class="col-md-4 agileits_team_grid">
 					<div class="agileits_team_grid_figure">
-						<img src="images/1.png" alt=" " class="img-responsive" />
+						<img src="/images/colmans/3.jpg" alt=" " class="img-responsive" />
 					</div>
 					<!-- <div class="agileits_team_grid_figure_social">
 						<ul class="w3ls_social">
@@ -38,13 +37,13 @@
 						</ul>
 					</div> -->
 					<div class="clearfix"> </div>
-					<a href=""><h4>Jane Nguyen <span>Ag. Dean</span></h4></a>
+					<a href=""><h4>Dr. M.K Onifade<span>Ag. HOD, Project Managemnt</span></h4></a>
 					<p>Morbi non elit sed neque rhoncus maximus ac at enim. 
 						Praesent a nisi sit amet risus semper laoreet et nec eros.</p>
 				</div>
 				<div class="col-md-4 agileits_team_grid">
 					<div class="agileits_team_grid_figure">
-						<img src="images/ooAremu.png" alt=" " class="img-responsive" />
+						<img src="/images/colmans/2.jpg" alt=" " class="img-responsive" />
 					</div>
 					<!-- <div class="agileits_team_grid_figure_social">
 						<ul class="w3ls_social">
@@ -53,14 +52,14 @@
 						</ul>
 					</div> -->
 					<div class="clearfix"> </div>
-					<a href="{{ route('ooAremu') }}"> <h4>Mr. Aremu Oluwapelumi <span>College Officer</span></h4></a>
+					<a href="{{ route('ooAremu') }}"> <h4>Dr. L.I Okafor<span>Ag. HOD, Business Administration</span></h4></a>
 					<p>Morbi non elit sed neque rhoncus maximus ac at enim. 
 						Praesent a nisi sit amet risus semper laoreet et nec eros.</p>
 				</div>
 
 				<div class="col-md-4 agileits_team_grid">
 					<div class="agileits_team_grid_figure">
-						<img src="images/mkOnifade.png" alt=" " class="img-responsive" />
+						<img src="/images/colmans/8.jpg" alt=" " class="img-responsive" />
 					</div>
 					<!-- <div class="agileits_team_grid_figure_social">
 						<ul class="w3ls_social">
@@ -69,7 +68,7 @@
 						</ul>
 					</div> -->
 					<div class="clearfix"> </div>
-					<a href = "{{ route('mkOnifade')}}"> <h4>Dr. M.K Onifade <span>Ag. HOD</span></h4></a>
+					<a href = "{{ route('mkOnifade')}}"> <h4>Dr. L.A.E. Imeokparia <span>Ag. HOD, Economics, Accounting and Finance</span></h4></a>
 					<p>Morbi non elit sed neque rhoncus maximus ac at enim. 
 						Praesent a nisi sit amet risus semper laoreet et nec eros.</p>
 				</div>
