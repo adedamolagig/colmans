@@ -38,8 +38,7 @@
 					</div> -->
 					<div class="clearfix"> </div>
 					<a href=""><h4>Dr. M.K Onifade<span>Ag. HOD, Project Managemnt</span></h4></a>
-					<p>Morbi non elit sed neque rhoncus maximus ac at enim. 
-						Praesent a nisi sit amet risus semper laoreet et nec eros.</p>
+					<p>insert paragraph here...</p>
 				</div>
 				<div class="col-md-4 agileits_team_grid">
 					<div class="agileits_team_grid_figure">
@@ -69,8 +68,7 @@
 					</div> -->
 					<div class="clearfix"> </div>
 					<a href = "{{ route('mkOnifade')}}"> <h4>Dr. L.A.E. Imeokparia <span>Ag. HOD, Economics, Accounting and Finance</span></h4></a>
-					<p>Morbi non elit sed neque rhoncus maximus ac at enim. 
-						Praesent a nisi sit amet risus semper laoreet et nec eros.</p>
+					<p>insert paragraph here...</p>
 				</div>
 
 
@@ -86,8 +84,7 @@
 					</div> -->
 					<div class="clearfix"> </div>
 					<a href = "{{ route('cOgboi')}}"> <h4>Dr. C. Ogboi <span> </span></h4></a>
-					<p>Morbi non elit sed neque rhoncus maximus ac at enim. 
-						Praesent a nisi sit amet risus semper laoreet et nec eros.</p>
+					<p>insert paragraph here...</p>
 				</div>
 
 
@@ -103,8 +100,7 @@
 					</div> -->
 					<div class="clearfix"> </div>
 					<a href = "{{ route('boNjogo') }}"> <h4>Dr. B.O. Njogo <span> </span></h4></a>
-					<p>Morbi non elit sed neque rhoncus maximus ac at enim. 
-						Praesent a nisi sit amet risus semper laoreet et nec eros.</p>
+					<p>insert paragraph here...</p>
 				</div>
 
 				<div class="col-md-4 agileits_team_grid">
@@ -120,8 +116,7 @@
 					<div class="clearfix"> </div>
 					<a href = "{{ route('baBello') }}"> <h4>Dr. B.A Bello <span> </span></h4></a>
 					
-					<p>Morbi non elit sed neque rhoncus maximus ac at enim. 
-						Praesent a nisi sit amet risus semper laoreet et nec eros.</p>
+					<p>insert paragraph here...</p>
 				</div>
 
 				<div class="col-md-4 agileits_team_grid">
@@ -137,8 +132,7 @@
 					<div class="clearfix"> </div>
 					<a href = "{{ route('gcDaramola') }}"> <h4>Mrs. G.C Daramola <span> </span></h4></a>
 					
-					<p>Morbi non elit sed neque rhoncus maximus ac at enim. 
-						Praesent a nisi sit amet risus semper laoreet et nec eros.</p>
+					<p>insert paragraph here...</p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>

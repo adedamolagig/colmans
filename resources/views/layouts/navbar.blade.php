@@ -49,9 +49,7 @@
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href=" {{route('accounting')}} ">Accounting, Economics and Finance</a></li>
                                     <li><a class="dropdown-item" href="{{ route('BusAdmin') }}">Business Administration</a></li>
-                                    <!-- <li><a class="dropdown-item" href="{{ route('economics') }}">Economics</a></li>
-                                    <li><a class="dropdown-item" href="{{ route('finance') }}">Finance & Banking</a></li> -->
-                                    <li><a class="dropdown-item" href=" {{ route('ProjMgt') }} ">Project Management</a></li>
+                                    <li><a class="dropdown-item" href=" {{ route('ProjMgt') }} ">Management Technology</a></li>
                                 </ul>
                             </li>
                         </ul>

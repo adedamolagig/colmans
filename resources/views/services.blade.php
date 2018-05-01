@@ -35,8 +35,7 @@
 						<span class="fa fa-futbol-o fa-4x"></span>
 					</div>
 					<div class="clearfix"> </div>
-					<p style="color:white" >Aliquam ex orci, dapibus eu facilisis non, scelerisque id nisl. 
-						Praesent at tincidunt nisi. Aliquam molestie sem a purus pharetra.</p>
+					<p style="color:white" >insert paragraph here...</p>
 				</div>
 				<div class="col-md-4 agileinfo_services_grid">
 					<div class="agileinfo_services_grid_left">
@@ -56,8 +55,7 @@
 						<span class="fa fa-trophy fa-4x"></span>
 					</div>
 					<div class="clearfix"> </div>
-					<p style="color:white">Aliquam ex orci, dapibus eu facilisis non, scelerisque id nisl. 
-						Praesent at tincidunt nisi. Aliquam molestie sem a purus pharetra.</p>
+					<p style="color:white">insert paragraph here...</p>
 				</div>
 				<div class="col-md-4 agileinfo_services_grid">
 					<div class="agileinfo_services_grid_left">
@@ -67,8 +65,7 @@
 						<span class="fa fa-briefcase fa-4x"></span>
 					</div>
 					<div class="clearfix"> </div>
-					<p style="color:white">Aliquam ex orci, dapibus eu facilisis non, scelerisque id nisl. 
-						Praesent at tincidunt nisi. Aliquam molestie sem a purus pharetra.</p>
+					<p style="color:white">insert paragraph here...</p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
