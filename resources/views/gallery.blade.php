@@ -11,7 +11,7 @@
 				<ul class="w3l_gallery_grid gallery" id="lightGallery">
 					<li data-title="COLMANS" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/1.jpg" data-responsive-src="images/1.jpg"> 
 						<div class="w3_w3l_gallery_grid box">
-							<a href="#">
+							<a href="images/1.jpg">
 								<img src="images/1.jpg" alt=" " class="img-responsive" /> 
 								<div class="caption scale-caption">
 									<h3>COLMANS</h3>

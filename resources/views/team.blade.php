@@ -52,8 +52,7 @@
 					</div> -->
 					<div class="clearfix"> </div>
 					<a href="{{ route('ooAremu') }}"> <h4>Dr. L.I Okafor<span>Ag. HOD, Business Administration</span></h4></a>
-					<p>Morbi non elit sed neque rhoncus maximus ac at enim. 
-						Praesent a nisi sit amet risus semper laoreet et nec eros.</p>
+					<p>insert paragraph here...</p>
 				</div>
 
 				<div class="col-md-4 agileits_team_grid">
