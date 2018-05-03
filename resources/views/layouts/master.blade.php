@@ -46,28 +46,27 @@
        
     </head>
     <body> 
-    <div id="app"> 
-        @yield('body')
+        <div id="app"> 
+            @yield('body')
 
 
+            
+                @section('bootstrapJS')
+                    <!-- for bootstrap working -->
+                    <script src="{{ asset ('js/bootstrap.js') }}"></script>
+                    <!-- //for bootstrap working -->
+                @endsection
         
-            @section('bootstrapJS')
-                <!-- for bootstrap working -->
-                <script src="{{ asset ('js/bootstrap.js') }}"></script>
-                <!-- //for bootstrap working -->
-            @endsection
-    
-    
-        <div class="" style="padding-bottom: 50px; padding-top: 70px">     
-            @include('layouts.footer')
+        
+            <div class="" style="padding-bottom: 50px; padding-top: 70px">     
+                @include('layouts.footer')
+            </div>
+
         </div>
-
     </div>
-
-   
-
-   </body>
+    </body>
    
     <script  src="{{ asset ('js/app.js')}}"></script>
+
 
 </html>

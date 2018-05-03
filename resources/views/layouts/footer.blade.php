@@ -1,13 +1,11 @@
 <!-- footer -->
-	
-
 	<div class="wthree_copy_right">
 
-	<div style="text-align: right"> 
-		<button class="btn">
-			<a href=" {{ route('RequestInformation') }} ">Contact Us</a>
-		</button>
-	</div>
+		<div style="text-align: right"> 
+			<button class="btn">
+				<a href=" {{ route('RequestInformation') }} ">Contact Us</a>
+			</button>
+		</div>
 
 		<div class="container">
 

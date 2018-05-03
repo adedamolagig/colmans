@@ -133,6 +133,69 @@
 					
 					<p>insert paragraph here...</p>
 				</div>
+
+
+				<div class="col-md-4 agileits_team_grid">
+					<div class="agileits_team_grid_figure">
+						<img src="/images/colmans/6.jpg" alt=" " class="img-responsive" />
+					</div>
+					<!-- <div class="agileits_team_grid_figure_social">
+						<ul class="w3ls_social">
+							<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+						</ul>
+					</div> -->
+					<div class="clearfix"> </div>
+					<a href = "#"> <h4>Mr. A.M Ogundeinde <span> </span></h4></a>
+					<p>insert paragraph here...</p>
+				</div>
+
+				<div class="col-md-4 agileits_team_grid">
+					<div class="agileits_team_grid_figure">
+						<img src="/images/colmans/9.jpg" alt=" " class="img-responsive" />
+					</div>
+					<!-- <div class="agileits_team_grid_figure_social">
+						<ul class="w3ls_social">
+							<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+						</ul>
+					</div> -->
+					<div class="clearfix"> </div>
+					<a href = "#"> <h4>Mr. Pelumi Aremu <span> </span></h4></a>
+					<p>insert paragraph here...</p>
+				</div>				
+
+
+				<div class="col-md-4 agileits_team_grid">
+					<div class="agileits_team_grid_figure">
+						<img src="/images/colmans/5.jpg" alt=" " class="img-responsive" />
+					</div>
+					<!-- <div class="agileits_team_grid_figure_social">
+						<ul class="w3ls_social">
+							<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+						</ul>
+					</div> -->
+					<div class="clearfix"> </div>
+					<a href = "#"> <h4>Mr. E.O Ajayi <span> </span></h4></a>
+					<p>insert paragraph here...</p>
+				</div>
+
+				<div class="col-md-4 agileits_team_grid">
+					<div class="agileits_team_grid_figure">
+						<img src="/images/colmans/7.jpg" alt=" " class="img-responsive" />
+					</div>
+					<!-- <div class="agileits_team_grid_figure_social">
+						<ul class="w3ls_social">
+							<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+						</ul>
+					</div> -->
+					<div class="clearfix"> </div>
+					<a href = "#"> <h4>Mr. O.O Oladeinde <span> </span></h4></a>
+					<p>insert paragraph here...</p>
+				</div>
+
 				<div class="clearfix"> </div>
 			</div>
 		</div>

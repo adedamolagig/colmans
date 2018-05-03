@@ -23,7 +23,7 @@
 					</li>
 					<li data-title="COLMANS" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/7.jpg" data-responsive-src="images/7.jpg"> 
 						<div class="w3_w3l_gallery_grid box">
-							<a href="#">
+							<a href="images/7.jpg">
 								<img src="images/7.jpg" alt=" " class="img-responsive" /> 
 								<div class="caption scale-caption">
 									<h3>COLMANS</h3>
@@ -35,7 +35,7 @@
 					</li>
 					<li data-title="COLMANS" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/5.jpg" data-responsive-src="images/5.jpg"> 
 						<div class="w3_w3l_gallery_grid box">
-							<a href="#">
+							<a href="images/5.jpg">
 								<img src="images/5.jpg" alt=" " class="img-responsive" /> 
 								<div class="caption scale-caption">
 									<h3>COLMANS</h3>
@@ -47,7 +47,7 @@
 					</li>
 					<li data-title="COLMANS" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/6.jpg" data-responsive-src="images/6.jpg"> 
 						<div class="w3_w3l_gallery_grid box">
-							<a href="#">
+							<a href="images/6.jpg">
 								<img src="images/6.jpg" alt=" " class="img-responsive" /> 
 								<div class="caption scale-caption">
 									<h3>COLMANS</h3>
@@ -59,7 +59,7 @@
 					</li>
 					<li data-title="COLMANS" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/8.jpg" data-responsive-src="images/8.jpg"> 
 						<div class="w3_w3l_gallery_grid box">
-							<a href="#">
+							<a href="images/8.jpg">
 								<img src="images/8.jpg" alt=" " class="img-responsive" /> 
 								<div class="caption scale-caption">
 									<h3>COLMANS</h3>
@@ -71,7 +71,7 @@
 					</li>
 					<li data-title="COLMANS" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/9.jpg" data-responsive-src="images/9.jpg"> 
 						<div class="w3_w3l_gallery_grid box">
-							<a href="#">
+							<a href="images/9.jpg">
 								<img src="images/9.jpg" alt=" " class="img-responsive" /> 
 								<div class="caption scale-caption">
 									<h3>COLMANS</h3>
@@ -83,7 +83,7 @@
 					</li>
 					<li data-title="COLMANS" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/10.jpg" data-responsive-src="images/10.jpg"> 
 						<div class="w3_w3l_gallery_grid box">
-							<a href="#">
+							<a href="images/10.jpg">
 								<img src="images/10.jpg" alt=" " class="img-responsive" /> 
 								<div class="caption scale-caption">
 									<h3>COLMANS</h3>
@@ -121,8 +121,8 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/lightGallery.js"></script>
-	<script>
+	
+	<!-- <script>
     	 $(document).ready(function() {
 			$("#lightGallery").lightGallery({
 				mode:"fade",
@@ -132,7 +132,7 @@
 				mobileSrc:true
 			});
 		});
-    </script>
+    </script> -->
 <!-- //gallery -->
 
 @endsection
