@@ -50,20 +50,30 @@
             @yield('body')
 
 
-            
+                
+                
+
                 @section('bootstrapJS')
                     <!-- for bootstrap working -->
                     <script src="{{ asset ('js/bootstrap.js') }}"></script>
                     <!-- //for bootstrap working -->
                 @endsection
         
-        
+            
+
+
+
             <div class="" style="padding-bottom: 50px; padding-top: 70px">     
                 @include('layouts.footer')
             </div>
 
         </div>
     </div>
+
+
+     
+    
+    
     </body>
    
     <script  src="{{ asset ('js/app.js')}}"></script>

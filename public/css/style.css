@@ -100,6 +100,14 @@ input[type="submit"],input[type="reset"],.w3layouts_banner_info_right ul li a,.w
 
 }
 
+.container-centralise {
+	margin: auto;
+    width: 100%;
+    border: 3px solid #73AD21;
+    padding: 0px; 
+    padding-left: 28%; 
+    padding-right: 2%;
+}
 
 /*-- nav --*/
 .navbar-default {
