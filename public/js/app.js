@@ -12038,7 +12038,7 @@ module.exports = Vue;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(12);
-module.exports = __webpack_require__(71);
+module.exports = __webpack_require__(75);
 
 
 /***/ }),
@@ -12078,6 +12078,11 @@ var EniloloboResearch = __webpack_require__(45);
 var EniloloboTeaching = __webpack_require__(47);
 var EniloloboServices = __webpack_require__(49);
 
+var ImeokpariaOverview = __webpack_require__(87);
+var ImeokpariaResearch = __webpack_require__(89);
+var ImeokpariaTeaching = __webpack_require__(90);
+var ImeokpariaServices = __webpack_require__(91);
+
 var BelloOverview = __webpack_require__(51);
 var BelloResearch = __webpack_require__(53);
 var BelloTeaching = __webpack_require__(55);
@@ -12088,12 +12093,17 @@ var DaramolaResearch = __webpack_require__(59);
 var DaramolaTeaching = __webpack_require__(61);
 var DaramolaServices = __webpack_require__(63);
 
-var OgboiOverview = __webpack_require__(65);
-var OgboiResearch = __webpack_require__(67);
+var NwoyeOverview = __webpack_require__(65);
+var NwoyeResearch = __webpack_require__(66);
+var NwoyeTeaching = __webpack_require__(67);
+var NwoyeServices = __webpack_require__(68);
 
-var NjogoOverview = __webpack_require__(69);
+var OgboiOverview = __webpack_require__(69);
+var OgboiResearch = __webpack_require__(71);
 
-var routes = [{ path: '/eniloloboresearch', component: EniloloboResearch }, { path: '/eniloloboservices', component: EniloloboServices }, { path: '/eniloloboteaching', component: EniloloboTeaching }, { path: '/enilolobooverview', component: EniloloboOverview }, { path: '/belloresearch', component: BelloResearch }, { path: '/bellooverview', component: BelloOverview }, { path: '/belloservices', component: BelloServices }, { path: '/belloteaching', component: BelloTeaching }, { path: '/ogboioverview', component: OgboiOverview }, { path: '/ogboiresearch', component: OgboiResearch }, { path: '/njogooverview', component: NjogoOverview }, { path: '/daramolaoverview', component: DaramolaOverview }, { path: '/daramolaresearch', component: DaramolaResearch }, { path: '/daramolateaching', component: DaramolaTeaching }, { path: '/daramolaservices', component: DaramolaServices }];
+var NjogoOverview = __webpack_require__(73);
+
+var routes = [{ path: '/eniloloboresearch', component: EniloloboResearch }, { path: '/eniloloboservices', component: EniloloboServices }, { path: '/eniloloboteaching', component: EniloloboTeaching }, { path: '/enilolobooverview', component: EniloloboOverview }, { path: '/imeokpariaresearch', component: ImeokpariaResearch }, { path: '/imeokpariaservices', component: ImeokpariaServices }, { path: '/imeokpariateaching', component: ImeokpariaTeaching }, { path: '/imeokpariaoverview', component: ImeokpariaOverview }, { path: '/belloresearch', component: BelloResearch }, { path: '/bellooverview', component: BelloOverview }, { path: '/belloservices', component: BelloServices }, { path: '/belloteaching', component: BelloTeaching }, { path: '/ogboioverview', component: OgboiOverview }, { path: '/ogboiresearch', component: OgboiResearch }, { path: '/njogooverview', component: NjogoOverview }, { path: '/daramolaoverview', component: DaramolaOverview }, { path: '/daramolaresearch', component: DaramolaResearch }, { path: '/daramolateaching', component: DaramolaTeaching }, { path: '/daramolaservices', component: DaramolaServices }, { path: '/nwoyeoverview', component: NwoyeOverview }, { path: '/nwoyeresearch', component: NwoyeResearch }, { path: '/nwoyeteaching', component: NwoyeTeaching }, { path: '/nwoyeservices', component: NwoyeServices }];
 
 var router = new __WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]({
   routes: routes // short for `routes: routes`
@@ -46015,7 +46025,7 @@ var staticRenderFns = [
         _c("li", { staticClass: "list-group-item" }, [
           _c("p", { staticStyle: { color: "black" } }, [
             _vm._v(
-              "\n  Andromachi is a fellow of the UK Higher Education Academy. She has teaching experience at undergraduate, postgraduate and executive education level and has worked for Said Business School’s Executive Education programmes (Women Transforming Leadership and the Oxford Scenarios Programme). She has also served as an examiner for leadership courses on the MBA programme."
+              "\n  Enilolobo, Oluwafemi Sunday was born in Lagos, Nigeria.  He had his primary education at Saint Paul African School, Ilupeju before proceeding to Ilupeju Secondary School, Ilupeju Estate, Lagos State for his secondary school education. He attended Lagos State Polytechnic and received the National Diploma in agriculture in the year 1990. He attended University of Agriculture Abeokuta (now Federal University of Agriculture, Abeokuta) from 1991 to 2010 for the First, Second and Third degrees in Agricultural Economics."
             )
           ])
         ]),
@@ -46023,7 +46033,7 @@ var staticRenderFns = [
         _c("li", { staticClass: "list-group-item" }, [
           _c("p", { staticStyle: { color: "black" } }, [
             _vm._v(
-              " \n  In her teaching she combines class discussion that draws on both management theories and students’ or executives’ own experiences, breakout sessions and case study work in a highly interactive teaching environment."
+              " \n  A recipient of a number of prizes, scholarships and awards both local and international including: Best overall student (ordinary national diploma) in school of agriculture, Lagos state polytechnic (1989/1990);  Best graduating student in Agricultural Economics & Farm Management. Dept. UNAAB (1995/1996); Federal Government of Nigeria Scholarship for Postgraduate Study (2000/2001), and Ph.D Thesis Research Grant of African Economic Research Consortium, Kenya (2008)."
             )
           ])
         ]),
@@ -46031,17 +46041,17 @@ var staticRenderFns = [
         _c("li", { staticClass: "list-group-item" }, [
           _c("p", { staticStyle: { color: "black" } }, [
             _vm._v(
-              "\n  Her doctoral research focused on how managers in large MNEs make sense of the implementation of corporate social responsibility (CSR) practices, looking into the contextual and processual influences and sensemaking drivers that affect how leaders understand the implementation of CSR and how they respond to it."
+              "\n He was a Credit Officer at Ogun State Agric. and Multipurpose Credit Agency (OSAMCA). His lecturing career started on part-time basis with Univ. of Agric., Abeokuta. (Centre for Human Resources Development and MBA programme), Moshood Abiola Poly., Abeokuta, (Part-time prog.) and Federal College of Education, Abeokuta (Centre for Sandwich and Pre-NCE Progromme). He joined Bells University of Technology, Ota, Ogun state in 2007 as an Assistant lecturer (on full-time basis) and rose to position of Senior lecturer in 2014. Courses taught over the years include research methodology, production economics, quantitative techniques, business statistics and economic planning both at undergraduate and postgraduate level. He held many administrative positions among which are College Examination Officer, College Postgraduate Representative, Acting Head of Department, member of a number of committees in the University. He is currently the Acting Dean of College of Management Sciences. "
             )
           ])
         ]),
         _vm._v(" "),
         _c("li", { staticClass: "list-group-item" }, [
-          _vm._v("Porta ac consectetur ac")
-        ]),
-        _vm._v(" "),
-        _c("li", { staticClass: "list-group-item" }, [
-          _vm._v("Vestibulum at eros")
+          _c("p", { staticStyle: { color: "black" } }, [
+            _vm._v(
+              "He once worked as Consultant for Baseline Survey for FADAMA III - Third National Fadama Development Project (NFDP III) with Ogun State Fadama Coordination Office (a project jointly sponsored by World Bank, Federal Government of Nigeria and Ogun State Government (2009).    "
+            )
+          ])
         ])
       ])
     ])
@@ -46125,33 +46135,9 @@ var staticRenderFns = [
         _c("li", { staticClass: "list-group-item" }, [
           _c("p", { staticStyle: { color: "black" } }, [
             _vm._v(
-              "\n  Andromachi Athanasopoulou is an Assistant Professor in Organisational Behaviour at the School of Business and Management at Queen Mary University of London and an Associate Fellow - Executive Education at the Saïd Business School. She was previously a research fellow at the Edmond J. Safra Center for Ethics at Harvard University. Her areas of expertise are organisational behaviour, leadership/leadership development and business ethics."
+              "\n  His research focus includes distribution/allocation and utilization of resources among the rural and low-income urban household, performance of agricultural sector of Nigeria. His articles are published in standard journals (both local and international) including Farm Management Association of Nigeria (FAMAN) Journal, West African Journal of Foods and Nutrition, Nigerian Journal of Economic and Social Studies, Journal of Economics and Sustainable Development, Journal of Rural Social Sciences, Journal of Applied Agricultural Research."
             )
           ])
-        ]),
-        _vm._v(" "),
-        _c("li", { staticClass: "list-group-item" }, [
-          _c("p", { staticStyle: { color: "black" } }, [
-            _vm._v(
-              " \n  In her research, Andromachi explores how leaders’ behaviour affects and is affected by the social context within which they operate, with emphasis on issues relating to two main areas: personal leadership development and ethical/responsible leadership."
-            )
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", { staticClass: "list-group-item" }, [
-          _c("p", { staticStyle: { color: "black" } }, [
-            _vm._v(
-              "\n  Her doctoral research focused on how managers in large MNEs make sense of the implementation of corporate social responsibility (CSR) practices, looking into the contextual and processual influences and sensemaking drivers that affect how leaders understand the implementation of CSR and how they respond to it."
-            )
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", { staticClass: "list-group-item" }, [
-          _vm._v("Porta ac consectetur ac")
-        ]),
-        _vm._v(" "),
-        _c("li", { staticClass: "list-group-item" }, [
-          _vm._v("Vestibulum at eros")
         ])
       ])
     ])
@@ -46235,33 +46221,9 @@ var staticRenderFns = [
         _c("li", { staticClass: "list-group-item" }, [
           _c("p", { staticStyle: { color: "black" } }, [
             _vm._v(
-              "\n  Andromachi is a fellow of the UK Higher Education Academy. She has teaching experience at undergraduate, postgraduate and executive education level and has worked for Said Business School’s Executive Education programmes (Women Transforming Leadership and the Oxford Scenarios Programme). She has also served as an examiner for leadership courses on the MBA programme."
+              "\n  He joined Bells University of Technology, Ota, Ogun state in 2007 as an Assistant lecturer (on full-time basis) and rose to position of Senior lecturer in 2014. Courses taught over the years include research methodology, production economics, quantitative techniques, business statistics and economic planning both at undergraduate and postgraduate level. He held many administrative positions among which are College Examination Officer, College Postgraduate Representative, Acting Head of Department, member of a number of committees in the University. He is currently the Acting Dean of College of Management Sciences. "
             )
           ])
-        ]),
-        _vm._v(" "),
-        _c("li", { staticClass: "list-group-item" }, [
-          _c("p", { staticStyle: { color: "black" } }, [
-            _vm._v(
-              " \n  In her teaching she combines class discussion that draws on both management theories and students’ or executives’ own experiences, breakout sessions and case study work in a highly interactive teaching environment."
-            )
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", { staticClass: "list-group-item" }, [
-          _c("p", { staticStyle: { color: "black" } }, [
-            _vm._v(
-              "\n  Her doctoral research focused on how managers in large MNEs make sense of the implementation of corporate social responsibility (CSR) practices, looking into the contextual and processual influences and sensemaking drivers that affect how leaders understand the implementation of CSR and how they respond to it."
-            )
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", { staticClass: "list-group-item" }, [
-          _vm._v("Porta ac consectetur ac")
-        ]),
-        _vm._v(" "),
-        _c("li", { staticClass: "list-group-item" }, [
-          _vm._v("Vestibulum at eros")
         ])
       ])
     ])
@@ -46345,25 +46307,17 @@ var staticRenderFns = [
         _c("li", { staticClass: "list-group-item" }, [
           _c("p", { staticStyle: { color: "black" } }, [
             _vm._v(
-              "\n   Amir’s research is broadly focused on firms' information environment in capital markets. His research generally examines the economic consequences of voluntary and mandatory corporate reporting and forensic accounting (reporting quality) issues. He is particularly interested in firms' information environment and disclosure choices during major corporate events such as mergers & acquisitions. His research in banking focuses on the effects of accounting - in particular fair value accounting - and of regulatory risk-based capital requirements on banks' economic choices (capital management and leverage, risk and liquidity management) and the wider economic consequences thereof. Further research interests include non-financial reporting, such as environmental, social and governance reporting, and the intersection of accounting with corporate finance and investment problems."
+              "\n   Dr. Enilolobo is a member of Nigeria Economic Society (NES) and  Nigerian Association of Agricultural Economists (NAAE) Nigeria Sustainable Development Solutions Network, (NSDSN). He has been involved in conferences/workshops and training such as Annual Conference of Nigerian Economic Society, Annual Conference of the Nigerian Association of Agricultural Economists, National Training Workshop on Simulation, Modelling and Computer Application in R & D, Regional Training Workshop on Use of Statistical Softwares in Data Analysis and Documentation, Training of Enumerators on the conduct of Baseline Survey for FADAMA III organized by Third National Fadama Development Project (NFDP III) Ogun State Fadama Coordination Office (OGSFCO) Abeokuta, Ogun State."
             )
           ])
         ]),
         _vm._v(" "),
         _c("li", { staticClass: "list-group-item" }, [
-          _vm._v("Dapibus ac facilisis in")
-        ]),
-        _vm._v(" "),
-        _c("li", { staticClass: "list-group-item" }, [
-          _vm._v("Morbi leo risus")
-        ]),
-        _vm._v(" "),
-        _c("li", { staticClass: "list-group-item" }, [
-          _vm._v("Porta ac consectetur ac")
-        ]),
-        _vm._v(" "),
-        _c("li", { staticClass: "list-group-item" }, [
-          _vm._v("Vestibulum at eros")
+          _c("p", { staticStyle: { color: "black" } }, [
+            _vm._v(
+              " He has high proficiency level in computing using MS Excel, MS Word, MS PowerPoint, MS Publisher, SPSS, Stata for data processing and analysis"
+            )
+          ])
         ])
       ])
     ])
@@ -47104,7 +47058,144 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(66)
+var __vue_template__ = __webpack_require__(86)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/NwoyeOverview.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-807aea78", Component.options)
+  } else {
+    hotAPI.reload("data-v-807aea78", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 66 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = null
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/NwoyeResearch.vue"
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 67 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = null
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/NwoyeTeaching.vue"
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 68 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = null
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/NwoyeServices.vue"
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 69 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = __webpack_require__(70)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -47143,7 +47234,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 66 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -47208,7 +47299,7 @@ if (false) {
 }
 
 /***/ }),
-/* 67 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -47216,7 +47307,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(68)
+var __vue_template__ = __webpack_require__(72)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -47255,7 +47346,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 68 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -47371,7 +47462,7 @@ if (false) {
 }
 
 /***/ }),
-/* 69 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -47379,7 +47470,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(70)
+var __vue_template__ = __webpack_require__(74)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -47418,7 +47509,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 70 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -47439,7 +47530,7 @@ var staticRenderFns = [
         _c("li", { staticClass: "list-group-item" }, [
           _c("p", { staticStyle: { color: "black" } }, [
             _vm._v(
-              "\n  Dr (Mrs) Njogo, Oluchukwu Bibiana is a senior faculty in the Department of Economics, Accounting and Finance of Bells University of Technology, Ota. Her research focuses on investment, portfolio diversification, mergers and acquisitions, interest rates, bond markets, institutional corporate governance, and sectorial analysis of industries. "
+              "\n  Dr (Mrs) Njogo, Oluchukwu Bibiana is the Deputy Dean and  senior Lecturer in the Department of Economics, Accounting and Finance of Bells University of Technology, Ota. Her research focuses on investment, portfolio diversification, mergers and acquisitions, interest rates, bond markets, institutional corporate governance, and sectorial analysis of industries. "
             )
           ])
         ]),
@@ -47489,10 +47580,269 @@ if (false) {
 }
 
 /***/ }),
-/* 71 */
+/* 75 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 76 */,
+/* 77 */,
+/* 78 */,
+/* 79 */,
+/* 80 */,
+/* 81 */,
+/* 82 */,
+/* 83 */,
+/* 84 */,
+/* 85 */,
+/* 86 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "panel panel-default" }, [
+      _c("div", { staticClass: "panel-body" }),
+      _vm._v(" "),
+      _c("ul", { staticClass: "list-group" }, [
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("p", { staticStyle: { color: "black" } }, [
+            _vm._v(
+              "\n  Nwoye, Casmier Friday was born in Lagos, Nigeria, in 1986. He is a native of Okposi community in Ezza North Local government area of Ebonyi State. He grew up in the South Western part of Nigeria where he had his primary and secondary education. He attended Yaba College of Technology and received the National Diploma in Electrical/Electronic Engineering in the year 2005 at upper credit. As the best graduating student of his class, he received a BSc degree in Geography with First Class Honors from the University of Lagos, Nigeria, in 2010, and an MSc Transportation Geography with a Distinction in 2014. He is currently studying for his Ph.D degree in Transportation studies at the Olabisi Onabanjo University, Ago Iwoye, Ogun State.  "
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("p", { staticStyle: { color: "black" } }, [
+            _vm._v(
+              " \n  In 2006, he joined Nestle Nigeria Plc as an Engineering Technician, a position which he resigned from, for the pursuit of his higher educational degree in the year 2007. In the year 2011, he was requested to join KPMG Professional services for his NYSC national service year and was later retained as an Experienced Audit Analyst in the year 2012. He resigned his appointment with KPMG in the year 2014. Casmier currently lectures at the Department of Management Technology (Transport, Logistics and Supply Chain Management) Bells University of Technology, Ota, Ogun State. \n  "
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("p", { staticStyle: { color: "black" } }, [
+            _vm._v(
+              "\n  He is a Diploma member of the Chartered Institute of Purchasing and Supply (CIPS), U.K. He is also a member of the Chartered Institute of Logistics and Transport (MCILT), a professional student member, Institute of Chartered Accountants of Nigeria (ICAN) and a Graduate member of the Chartered Institute of Management (NIM)."
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _vm._v(
+            "Casmier is one of the Directors of Inflow Index limited, a company which was incorporated in the year 2012 to do business in the areas spelt out in her article and memorandum of association. As an academic and researcher, Casmier’s research and teaching interest covers areas wit: Transport & Logistics Management, Inventory Management, Procurement and Supply Chain Management Operations Research and Transport Safety. "
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _vm._v("Vestibulum at eros")
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-807aea78", module.exports)
+  }
+}
+
+/***/ }),
+/* 87 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = __webpack_require__(88)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/ImeokpariaOverview.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-67c5d868", Component.options)
+  } else {
+    hotAPI.reload("data-v-67c5d868", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 88 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "panel panel-default" }, [
+      _c("div", { staticClass: "panel-body" }),
+      _vm._v(" "),
+      _c("ul", { staticClass: "list-group" }, [
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("p", { staticStyle: { color: "black" } }, [
+            _vm._v(
+              "\n  Lawrence Imeokparia holds Bachelor of Science degree and Master of Science in Accounting from the University of Lagos, Akoka, Yaba and Doctor of philosophy (PhD) from Babcock University, Ilishan, Remo. "
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("p", { staticStyle: { color: "black" } }, [
+            _vm._v(
+              " \n  Lawrence Imeokparia also holds membership of the following Professional Bodies: The Institute of Chartered of Accountants of Nigeria, The chartered Institute of Taxation of Nigeria and The Chartered institute of management of Nigeria. He is astute administrator with extensive experience in auditing and investigation, Taxation and Management Accounting. A prolific and experienced Lecturer, who is one of the leading professionals involved in the training of candidates for the examination of the Institute of chartered Accountant of Nigeria. He has also taught at many higher Institutions (Universities and polytechnics) both as full time and part- time Lecturer. His research interests are focused on strategic management Accounting, Strategic management, Performance management and International Accounting. He is currently the Head of Department of Economics, Accounting and Finance in the College of Management Sciences, Bells University of Technology, Ota, Ogun State, Nigeria.\n  "
+            )
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-67c5d868", module.exports)
+  }
+}
+
+/***/ }),
+/* 89 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = null
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/ImeokpariaResearch.vue"
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 90 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = null
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/ImeokpariaTeaching.vue"
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 91 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = null
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/ImeokpariaServices.vue"
+
+module.exports = Component.exports
+
 
 /***/ })
 /******/ ]);

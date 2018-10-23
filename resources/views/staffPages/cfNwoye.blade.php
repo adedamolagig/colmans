@@ -17,36 +17,30 @@
 	          <section class="row text-center placeholders">
 	           
 	            <div class="col-6 col-sm-3 placeholder">
-	              <img src="/images/osEnilolobo.jpg" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
+	              <img src="/images/cfNwoye.jpg" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
 	              
 	             
 	            </div>
 	            
 	          </section>
 
-	          <h2>Dr. Enilolobo Oluwafemi Sunday</h2>
-	          <h4>B.Sc, M.sc,  Ph.D,</h4> 
-	          <h2>
-	          	<a target="_blank" href="https://www.researchgate.net/profile/Oluwafemi_Enilolobo"><i class="fab fa-researchgate"></i></a>
-	          	<a href=""><i class="fab fa-researchgate"></i></a>
-	          	<a href=""><i class="fab fa-researchgate"></i></a>
-	          	<a href=""><i class="fab fa-researchgate"></i></a>
-			  </h2>
+	          <h2>Nwoye, Casmier Friday</h2>
+	          <h4>B.Sc, M.sc</h4>
 	          <div class="row">
 		        <nav class="navbar navbar-default  navbar-header">
 		        	<!-- <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar"> -->
 		          <ul class="nav nav-pills flex-column">
 		            <li class="nav-item">
-		              <router-link to="/enilolobooverview">Overview</router-link>
+		              <router-link to="/nwoyeoverview">Overview</router-link>
 		            </li>
 		            <li class="nav-item">
-		              <router-link to="/eniloloboresearch">Research</router-link>
+		              <router-link to="/nwoyeresearch">Research</router-link>
 		            </li>
 		            <li class="nav-item">
-		              <router-link to="/eniloloboservices">Services</a>
+		              <router-link to="/nwoyeservices">Services</a>
 		            </li>
 		             <li class="nav-item">
-		              <router-link to="/eniloloboteaching">Teaching</router-link>
+		              <router-link to="/nwoyeteaching">Teaching</router-link>
 		            </li> 
 		          </ul>
 		        </nav>

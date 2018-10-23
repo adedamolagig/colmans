@@ -28,7 +28,7 @@
 			    <div class="clearfix"> </div>
 			</div>
 			<li> <span>
-			<p>© <?php echo date('Y') ?> COLMANS. All rights reserved | Designed by <a href="http://ogundeindeadedamola.com/">Keys2Imagination </a></p></span></li>
+			<p>© <?php echo date('Y') ?> COLMANS. All rights reserved | Designed by <a href="#!">Fedrusconsulting.com</a></p></span></li>
 		</div>
 	</div>
 <!-- //footer -->

@@ -40,4 +40,14 @@ class StaffController extends Controller
     {
         return view('staffPages.mkOnifade');
     }
+
+    public function cfNwoye()
+    {
+        return view('staffPages.cfNwoye');
+    }
+
+    public function lImeokparia()
+    {
+        return view('staffPages.lImeokparia');
+    }
 }

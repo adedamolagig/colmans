@@ -38,6 +38,8 @@ Route::get('/staffPages/boNjogo', 'StaffController@boNjogo')->name('boNjogo');
 Route::get('/staffPages/baBello', 'StaffController@baBello')->name('baBello');
 Route::get('/staffPages/gcDaramola', 'StaffController@gcDaramola')->name('gcDaramola');
 Route::get('/staffPages/mkOnifade', 'StaffController@mkOnifade')->name('mkOnifade');
+Route::get('/staffpages/cfNwoye', 'StaffController@cfNwoye')->name('cfNwoye');
+Route::get('/staffpages/limeokparia', 'StaffController@limeokparia')->name('limeokparia');
 
 // Routes to get departments page
 Route::get('/departments/accounting', 'DepartmentController@accounting')->name('accounting');

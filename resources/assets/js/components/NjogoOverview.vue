@@ -7,7 +7,7 @@
     <!-- List group -->
     <ul class="list-group">
     <li class="list-group-item"><p style="color:black">
-    Dr (Mrs) Njogo, Oluchukwu Bibiana is a senior faculty in the Department of Economics, Accounting and Finance of Bells University of Technology, Ota. Her research focuses on investment, portfolio diversification, mergers and acquisitions, interest rates, bond markets, institutional corporate governance, and sectorial analysis of industries. </p></li>
+    Dr (Mrs) Njogo, Oluchukwu Bibiana is the Deputy Dean and  senior Lecturer in the Department of Economics, Accounting and Finance of Bells University of Technology, Ota. Her research focuses on investment, portfolio diversification, mergers and acquisitions, interest rates, bond markets, institutional corporate governance, and sectorial analysis of industries. </p></li>
     <li class="list-group-item"><p style="color:black"> 
     She obtained a Bachelor of Science (B.Sc) Honours degree in Finance from Enugu State University of Science and Technology in 1993, a Master of Science (M.Sc) in Finance from University of Calabar in 2002; and a Doctor of Philosophy (PhD) in Banking and Finance from University of Nigeria, Nsukka in 2013.
     </p></li>

@@ -25,6 +25,13 @@
 	          </section>
 
 	          <h2>Dr. Morakinyo .K. Onifade</h2>
+	          <h4>B.Sc, M.sc,  Ph.D,</h4> 
+	          <h2>
+	          	<a target="_blank" href="https://www.researchgate.net/profile/Oluwafemi_Enilolobo"><i class="fab fa-researchgate"></i></a>
+	          	<a href=""><i class="fab fa-researchgate"></i></a>
+	          	<a href=""><i class="fab fa-researchgate"></i></a>
+	          	<a href=""><i class="fab fa-researchgate"></i></a>
+			  </h2>
 	          <div class="row">
 		        <nav class="navbar navbar-default  navbar-header">
 		        	<!-- <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar"> -->
