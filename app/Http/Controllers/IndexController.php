@@ -50,5 +50,10 @@ class IndexController extends Controller
     {
         return view('programmes');
     }
+
+    public function curriculum()
+    {
+        return view('curriculum');
+    }
     
 }

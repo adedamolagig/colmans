@@ -9,7 +9,7 @@
 			<div class="agileinfo_services_grids">
 				<div class="col-md-4 agileinfo_services_grid">
 					<div class="agileinfo_services_grid_left">
-						<a  href="{{ route('team') }}"><h1>College Members</h1></a>
+						<a  href="{{ route('team') }}"><h1>Business Administration</h1></a>
 					</div>
 					<div class="agileinfo_services_grid_right">
 						<span class="fa fa-university fa-4x" aria-hidden="true"></span>
@@ -19,7 +19,7 @@
 				</div>
 				<div class="col-md-4 agileinfo_services_grid">
 					<div class="agileinfo_services_grid_left">
-						<a href=""><h1>Career Growth</h1></a>
+						<a href=""><h1>Economics, Accounting and Finance</h1></a>
 					</div>
 					<div class="agileinfo_services_grid_right">
 						<span class="fa fa-bell fa-4x"></span>
@@ -30,7 +30,7 @@
 
 				<div class="col-md-4 agileinfo_services_grid">
 					<div class="agileinfo_services_grid_left">
-						<a href=" {{ route('curriculum') }} "><h1>Curriculum</h1></a>
+						<a href=""><h1>Project Management</h1></a>
 					</div>
 					<div class="agileinfo_services_grid_right">
 						<span class="fa fa-graduation-cap fa-4x"></span>
@@ -38,39 +38,7 @@
 					<div class="clearfix"> </div>
 					<p style="color:white">The Curriculum of the three departmens under the college of managment sciences are designed around the with the core values that the COLLEGE exists</p>
 				</div>
-
-				<div class="col-md-4 agileinfo_services_grid">
-					<div class="agileinfo_services_grid_left">
-						<a href=""><h1>Sports & Events</h1></a>
-					</div>
-					<div class="agileinfo_services_grid_right">
-						<span class="fa fa-futbol-o fa-4x"></span>
-					</div>
-					<div class="clearfix"> </div>
-					<p style="color:white" >insert paragraph here...</p>
-				</div>
-				
-				<div class="col-md-4 agileinfo_services_grid">
-					<div class="agileinfo_services_grid_left">
-						<a href=""><h1>Awards</h1></a>
-					</div>
-					<div class="agileinfo_services_grid_right">
-						<span class="fa fa-trophy fa-4x"></span>
-					</div>
-					<div class="clearfix"> </div>
-					<p style="color:white">insert paragraph here...</p>
-				</div>
-				<div class="col-md-4 agileinfo_services_grid">
-					<div class="agileinfo_services_grid_left">
-						<a href="#"><h1>Research Programs</h1></a>
-					</div>
-					<div class="agileinfo_services_grid_right">
-						<span class="fa fa-briefcase fa-4x"></span>
-					</div>
-					<div class="clearfix"> </div>
-					<p style="color:white">insert paragraph here...</p>
-				</div>
-				<div class="clearfix"> </div>
+		
 			</div>
 		</div>
 	</div>

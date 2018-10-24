@@ -50,4 +50,9 @@ class StaffController extends Controller
     {
         return view('staffPages.lImeokparia');
     }
+
+    public function ydAdegbite()
+    {
+        return view('staffPages.ydAdegbite');
+    }
 }

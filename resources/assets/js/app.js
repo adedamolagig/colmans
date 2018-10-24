@@ -35,6 +35,11 @@ let ImeokpariaResearch = require('./components/ImeokpariaResearch.vue');
 let ImeokpariaTeaching = require('./components/ImeokpariaTeaching.vue');
 let ImeokpariaServices = require('./components/ImeokpariaServices.vue');
 
+let AdegbiteOverview = require('./components/AdegbiteOverview.vue');
+let AdegbiteResearch = require('./components/AdegbiteResearch.vue');
+let AdegbiteTeaching = require('./components/AdegbiteTeaching.vue');
+let AdegbiteServices = require('./components/AdegbiteServices.vue');
+
 
 
 let BelloOverview = require('./components/BelloOverview.vue');
@@ -87,7 +92,13 @@ const routes = [
   { path: '/nwoyeoverview', component:NwoyeOverview },
   { path: '/nwoyeresearch', component:NwoyeResearch },
   { path: '/nwoyeteaching', component:NwoyeTeaching },
-  { path: '/nwoyeservices', component:NwoyeServices }
+  { path: '/nwoyeservices', component:NwoyeServices },
+
+  { path: '/adegbiteoverview', component:AdegbiteOverview },
+  { path: '/adegbiteresearch', component:AdegbiteResearch },
+  { path: '/adegbiteteaching', component:AdegbiteTeaching },
+  { path: '/adegbiteservices', component:AdegbiteServices }
+
 
 
   

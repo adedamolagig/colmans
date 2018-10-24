@@ -12038,7 +12038,7 @@ module.exports = Vue;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(12);
-module.exports = __webpack_require__(75);
+module.exports = __webpack_require__(85);
 
 
 /***/ }),
@@ -12078,32 +12078,37 @@ var EniloloboResearch = __webpack_require__(45);
 var EniloloboTeaching = __webpack_require__(47);
 var EniloloboServices = __webpack_require__(49);
 
-var ImeokpariaOverview = __webpack_require__(87);
-var ImeokpariaResearch = __webpack_require__(89);
-var ImeokpariaTeaching = __webpack_require__(90);
-var ImeokpariaServices = __webpack_require__(91);
+var ImeokpariaOverview = __webpack_require__(51);
+var ImeokpariaResearch = __webpack_require__(53);
+var ImeokpariaTeaching = __webpack_require__(54);
+var ImeokpariaServices = __webpack_require__(55);
 
-var BelloOverview = __webpack_require__(51);
-var BelloResearch = __webpack_require__(53);
-var BelloTeaching = __webpack_require__(55);
-var BelloServices = __webpack_require__(56);
+var AdegbiteOverview = __webpack_require__(56);
+var AdegbiteResearch = __webpack_require__(58);
+var AdegbiteTeaching = __webpack_require__(59);
+var AdegbiteServices = __webpack_require__(96);
 
-var DaramolaOverview = __webpack_require__(57);
-var DaramolaResearch = __webpack_require__(59);
-var DaramolaTeaching = __webpack_require__(61);
-var DaramolaServices = __webpack_require__(63);
+var BelloOverview = __webpack_require__(60);
+var BelloResearch = __webpack_require__(62);
+var BelloTeaching = __webpack_require__(64);
+var BelloServices = __webpack_require__(65);
 
-var NwoyeOverview = __webpack_require__(65);
-var NwoyeResearch = __webpack_require__(66);
-var NwoyeTeaching = __webpack_require__(67);
-var NwoyeServices = __webpack_require__(68);
+var DaramolaOverview = __webpack_require__(66);
+var DaramolaResearch = __webpack_require__(68);
+var DaramolaTeaching = __webpack_require__(70);
+var DaramolaServices = __webpack_require__(72);
 
-var OgboiOverview = __webpack_require__(69);
-var OgboiResearch = __webpack_require__(71);
+var NwoyeOverview = __webpack_require__(74);
+var NwoyeResearch = __webpack_require__(76);
+var NwoyeTeaching = __webpack_require__(77);
+var NwoyeServices = __webpack_require__(78);
 
-var NjogoOverview = __webpack_require__(73);
+var OgboiOverview = __webpack_require__(79);
+var OgboiResearch = __webpack_require__(81);
 
-var routes = [{ path: '/eniloloboresearch', component: EniloloboResearch }, { path: '/eniloloboservices', component: EniloloboServices }, { path: '/eniloloboteaching', component: EniloloboTeaching }, { path: '/enilolobooverview', component: EniloloboOverview }, { path: '/imeokpariaresearch', component: ImeokpariaResearch }, { path: '/imeokpariaservices', component: ImeokpariaServices }, { path: '/imeokpariateaching', component: ImeokpariaTeaching }, { path: '/imeokpariaoverview', component: ImeokpariaOverview }, { path: '/belloresearch', component: BelloResearch }, { path: '/bellooverview', component: BelloOverview }, { path: '/belloservices', component: BelloServices }, { path: '/belloteaching', component: BelloTeaching }, { path: '/ogboioverview', component: OgboiOverview }, { path: '/ogboiresearch', component: OgboiResearch }, { path: '/njogooverview', component: NjogoOverview }, { path: '/daramolaoverview', component: DaramolaOverview }, { path: '/daramolaresearch', component: DaramolaResearch }, { path: '/daramolateaching', component: DaramolaTeaching }, { path: '/daramolaservices', component: DaramolaServices }, { path: '/nwoyeoverview', component: NwoyeOverview }, { path: '/nwoyeresearch', component: NwoyeResearch }, { path: '/nwoyeteaching', component: NwoyeTeaching }, { path: '/nwoyeservices', component: NwoyeServices }];
+var NjogoOverview = __webpack_require__(83);
+
+var routes = [{ path: '/eniloloboresearch', component: EniloloboResearch }, { path: '/eniloloboservices', component: EniloloboServices }, { path: '/eniloloboteaching', component: EniloloboTeaching }, { path: '/enilolobooverview', component: EniloloboOverview }, { path: '/imeokpariaresearch', component: ImeokpariaResearch }, { path: '/imeokpariaservices', component: ImeokpariaServices }, { path: '/imeokpariateaching', component: ImeokpariaTeaching }, { path: '/imeokpariaoverview', component: ImeokpariaOverview }, { path: '/belloresearch', component: BelloResearch }, { path: '/bellooverview', component: BelloOverview }, { path: '/belloservices', component: BelloServices }, { path: '/belloteaching', component: BelloTeaching }, { path: '/ogboioverview', component: OgboiOverview }, { path: '/ogboiresearch', component: OgboiResearch }, { path: '/njogooverview', component: NjogoOverview }, { path: '/daramolaoverview', component: DaramolaOverview }, { path: '/daramolaresearch', component: DaramolaResearch }, { path: '/daramolateaching', component: DaramolaTeaching }, { path: '/daramolaservices', component: DaramolaServices }, { path: '/nwoyeoverview', component: NwoyeOverview }, { path: '/nwoyeresearch', component: NwoyeResearch }, { path: '/nwoyeteaching', component: NwoyeTeaching }, { path: '/nwoyeservices', component: NwoyeServices }, { path: '/adegbiteoverview', component: AdegbiteOverview }, { path: '/adegbiteresearch', component: AdegbiteResearch }, { path: '/adegbiteteaching', component: AdegbiteTeaching }, { path: '/adegbiteservices', component: AdegbiteServices }];
 
 var router = new __WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]({
   routes: routes // short for `routes: routes`
@@ -46358,6 +46363,352 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
+Component.options.__file = "resources/assets/js/components/ImeokpariaOverview.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-67c5d868", Component.options)
+  } else {
+    hotAPI.reload("data-v-67c5d868", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 52 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "panel panel-default" }, [
+      _c("div", { staticClass: "panel-body" }),
+      _vm._v(" "),
+      _c("ul", { staticClass: "list-group" }, [
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("p", { staticStyle: { color: "black" } }, [
+            _vm._v(
+              "\n  Lawrence Imeokparia holds Bachelor of Science degree and Master of Science in Accounting from the University of Lagos, Akoka, Yaba and Doctor of philosophy (PhD) from Babcock University, Ilishan, Remo. "
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("p", { staticStyle: { color: "black" } }, [
+            _vm._v(
+              " \n  Lawrence Imeokparia also holds membership of the following Professional Bodies: The Institute of Chartered of Accountants of Nigeria, The chartered Institute of Taxation of Nigeria and The Chartered institute of management of Nigeria. He is astute administrator with extensive experience in auditing and investigation, Taxation and Management Accounting. A prolific and experienced Lecturer, who is one of the leading professionals involved in the training of candidates for the examination of the Institute of chartered Accountant of Nigeria. He has also taught at many higher Institutions (Universities and polytechnics) both as full time and part- time Lecturer. His research interests are focused on strategic management Accounting, Strategic management, Performance management and International Accounting. He is currently the Head of Department of Economics, Accounting and Finance in the College of Management Sciences, Bells University of Technology, Ota, Ogun State, Nigeria.\n  "
+            )
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-67c5d868", module.exports)
+  }
+}
+
+/***/ }),
+/* 53 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = null
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/ImeokpariaResearch.vue"
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 54 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = null
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/ImeokpariaTeaching.vue"
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 55 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = null
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/ImeokpariaServices.vue"
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 56 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = __webpack_require__(57)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/AdegbiteOverview.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-06b8ab66", Component.options)
+  } else {
+    hotAPI.reload("data-v-06b8ab66", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 57 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "panel panel-default" }, [
+      _c("div", { staticClass: "panel-body" }),
+      _vm._v(" "),
+      _c("ul", { staticClass: "list-group" }, [
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("p", { staticStyle: { color: "black" } }, [
+            _vm._v(
+              "\n  Adegbite, Dorcas Yetunde is a native of Ile-oluji Oke- igbo, in Ondo state. She was born in Ikeja city of Lagos state on the 8th of March,1993 into the family of Chief and Mrs Lawrence Adeoye. She grew up in Lagos state, went to St Leos catholic private school (2000) for her primary education; Zinnia College Ikeja (2004) for her secondary education and she attended Bells University of technology, Ota, Ogun state for her tertiary education (first degree) where she graduated as the best graduating student in the department with First class honors in Accounting.  "
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("p", { staticStyle: { color: "black" } }, [
+            _vm._v(
+              " \n  She also successfully completed her Masters’ degree program at Bells University in year 2018 where she graduated with Distinction in Financial Accounting area. She worked with Guarantee Trust bank as the branch secretary in year 2015, and she had her national youth corp in 2015 also.\n  "
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("p", { staticStyle: { color: "black" } }, [
+            _vm._v(
+              "\n  She got married in year 2016, and she currently works in the department of Economics, Accounting and Finance, Bells University of technology, Ota as a Graduate Assistant. She is a member of International Project Management Professionals (IPMP, 2015). Her teaching interest and major area in the Accounting field is Financial Reporting and Management Accounting. "
+            )
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-06b8ab66", module.exports)
+  }
+}
+
+/***/ }),
+/* 58 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = null
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/AdegbiteResearch.vue"
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 59 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = null
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/AdegbiteTeaching.vue"
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 60 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = __webpack_require__(61)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
 Component.options.__file = "resources/assets/js/components/BelloOverview.vue"
 
 /* hot reload */
@@ -46380,7 +46731,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 52 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -46451,7 +46802,7 @@ if (false) {
 }
 
 /***/ }),
-/* 53 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -46459,7 +46810,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(54)
+var __vue_template__ = __webpack_require__(63)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -46498,7 +46849,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 54 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -46616,7 +46967,7 @@ if (false) {
 }
 
 /***/ }),
-/* 55 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var normalizeComponent = __webpack_require__(0)
@@ -46646,7 +46997,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 56 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var normalizeComponent = __webpack_require__(0)
@@ -46676,7 +47027,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 57 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -46684,7 +47035,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(58)
+var __vue_template__ = __webpack_require__(67)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -46723,7 +47074,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 58 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -46768,7 +47119,7 @@ if (false) {
 }
 
 /***/ }),
-/* 59 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -46776,7 +47127,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(60)
+var __vue_template__ = __webpack_require__(69)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -46815,7 +47166,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 60 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -46858,7 +47209,7 @@ if (false) {
 }
 
 /***/ }),
-/* 61 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -46866,7 +47217,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(62)
+var __vue_template__ = __webpack_require__(71)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -46905,7 +47256,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 62 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -46948,7 +47299,7 @@ if (false) {
 }
 
 /***/ }),
-/* 63 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -46956,7 +47307,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(64)
+var __vue_template__ = __webpack_require__(73)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -46995,7 +47346,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 64 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -47050,7 +47401,7 @@ if (false) {
 }
 
 /***/ }),
-/* 65 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -47058,7 +47409,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(86)
+var __vue_template__ = __webpack_require__(75)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -47097,7 +47448,72 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 66 */
+/* 75 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "panel panel-default" }, [
+      _c("div", { staticClass: "panel-body" }),
+      _vm._v(" "),
+      _c("ul", { staticClass: "list-group" }, [
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("p", { staticStyle: { color: "black" } }, [
+            _vm._v(
+              "\n  Nwoye, Casmier Friday was born in Lagos, Nigeria, in 1986. He is a native of Okposi community in Ezza North Local government area of Ebonyi State. He grew up in the South Western part of Nigeria where he had his primary and secondary education. He attended Yaba College of Technology and received the National Diploma in Electrical/Electronic Engineering in the year 2005 at upper credit. As the best graduating student of his class, he received a BSc degree in Geography with First Class Honors from the University of Lagos, Nigeria, in 2010, and an MSc Transportation Geography with a Distinction in 2014. He is currently studying for his Ph.D degree in Transportation studies at the Olabisi Onabanjo University, Ago Iwoye, Ogun State.  "
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("p", { staticStyle: { color: "black" } }, [
+            _vm._v(
+              " \n  In 2006, he joined Nestle Nigeria Plc as an Engineering Technician, a position which he resigned from, for the pursuit of his higher educational degree in the year 2007. In the year 2011, he was requested to join KPMG Professional services for his NYSC national service year and was later retained as an Experienced Audit Analyst in the year 2012. He resigned his appointment with KPMG in the year 2014. Casmier currently lectures at the Department of Management Technology (Transport, Logistics and Supply Chain Management) Bells University of Technology, Ota, Ogun State. \n  "
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _c("p", { staticStyle: { color: "black" } }, [
+            _vm._v(
+              "\n  He is a Diploma member of the Chartered Institute of Purchasing and Supply (CIPS), U.K. He is also a member of the Chartered Institute of Logistics and Transport (MCILT), a professional student member, Institute of Chartered Accountants of Nigeria (ICAN) and a Graduate member of the Chartered Institute of Management (NIM)."
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _vm._v(
+            "Casmier is one of the Directors of Inflow Index limited, a company which was incorporated in the year 2012 to do business in the areas spelt out in her article and memorandum of association. As an academic and researcher, Casmier’s research and teaching interest covers areas wit: Transport & Logistics Management, Inventory Management, Procurement and Supply Chain Management Operations Research and Transport Safety. "
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "list-group-item" }, [
+          _vm._v("Vestibulum at eros")
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-807aea78", module.exports)
+  }
+}
+
+/***/ }),
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var normalizeComponent = __webpack_require__(0)
@@ -47127,7 +47543,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 67 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var normalizeComponent = __webpack_require__(0)
@@ -47157,7 +47573,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 68 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var normalizeComponent = __webpack_require__(0)
@@ -47187,7 +47603,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 69 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -47195,7 +47611,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(70)
+var __vue_template__ = __webpack_require__(80)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -47234,7 +47650,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 70 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -47299,7 +47715,7 @@ if (false) {
 }
 
 /***/ }),
-/* 71 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -47307,7 +47723,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(72)
+var __vue_template__ = __webpack_require__(82)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -47346,7 +47762,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 72 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -47462,7 +47878,7 @@ if (false) {
 }
 
 /***/ }),
-/* 73 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -47470,7 +47886,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(74)
+var __vue_template__ = __webpack_require__(84)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -47509,7 +47925,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 74 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -47580,182 +47996,23 @@ if (false) {
 }
 
 /***/ }),
-/* 75 */
+/* 85 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 76 */,
-/* 77 */,
-/* 78 */,
-/* 79 */,
-/* 80 */,
-/* 81 */,
-/* 82 */,
-/* 83 */,
-/* 84 */,
-/* 85 */,
-/* 86 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "panel panel-default" }, [
-      _c("div", { staticClass: "panel-body" }),
-      _vm._v(" "),
-      _c("ul", { staticClass: "list-group" }, [
-        _c("li", { staticClass: "list-group-item" }, [
-          _c("p", { staticStyle: { color: "black" } }, [
-            _vm._v(
-              "\n  Nwoye, Casmier Friday was born in Lagos, Nigeria, in 1986. He is a native of Okposi community in Ezza North Local government area of Ebonyi State. He grew up in the South Western part of Nigeria where he had his primary and secondary education. He attended Yaba College of Technology and received the National Diploma in Electrical/Electronic Engineering in the year 2005 at upper credit. As the best graduating student of his class, he received a BSc degree in Geography with First Class Honors from the University of Lagos, Nigeria, in 2010, and an MSc Transportation Geography with a Distinction in 2014. He is currently studying for his Ph.D degree in Transportation studies at the Olabisi Onabanjo University, Ago Iwoye, Ogun State.  "
-            )
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", { staticClass: "list-group-item" }, [
-          _c("p", { staticStyle: { color: "black" } }, [
-            _vm._v(
-              " \n  In 2006, he joined Nestle Nigeria Plc as an Engineering Technician, a position which he resigned from, for the pursuit of his higher educational degree in the year 2007. In the year 2011, he was requested to join KPMG Professional services for his NYSC national service year and was later retained as an Experienced Audit Analyst in the year 2012. He resigned his appointment with KPMG in the year 2014. Casmier currently lectures at the Department of Management Technology (Transport, Logistics and Supply Chain Management) Bells University of Technology, Ota, Ogun State. \n  "
-            )
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", { staticClass: "list-group-item" }, [
-          _c("p", { staticStyle: { color: "black" } }, [
-            _vm._v(
-              "\n  He is a Diploma member of the Chartered Institute of Purchasing and Supply (CIPS), U.K. He is also a member of the Chartered Institute of Logistics and Transport (MCILT), a professional student member, Institute of Chartered Accountants of Nigeria (ICAN) and a Graduate member of the Chartered Institute of Management (NIM)."
-            )
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", { staticClass: "list-group-item" }, [
-          _vm._v(
-            "Casmier is one of the Directors of Inflow Index limited, a company which was incorporated in the year 2012 to do business in the areas spelt out in her article and memorandum of association. As an academic and researcher, Casmier’s research and teaching interest covers areas wit: Transport & Logistics Management, Inventory Management, Procurement and Supply Chain Management Operations Research and Transport Safety. "
-          )
-        ]),
-        _vm._v(" "),
-        _c("li", { staticClass: "list-group-item" }, [
-          _vm._v("Vestibulum at eros")
-        ])
-      ])
-    ])
-  }
-]
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-807aea78", module.exports)
-  }
-}
-
-/***/ }),
-/* 87 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var disposed = false
-var normalizeComponent = __webpack_require__(0)
-/* script */
-var __vue_script__ = null
-/* template */
-var __vue_template__ = __webpack_require__(88)
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "resources/assets/js/components/ImeokpariaOverview.vue"
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-67c5d868", Component.options)
-  } else {
-    hotAPI.reload("data-v-67c5d868", Component.options)
-  }
-  module.hot.dispose(function (data) {
-    disposed = true
-  })
-})()}
-
-module.exports = Component.exports
-
-
-/***/ }),
-/* 88 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "panel panel-default" }, [
-      _c("div", { staticClass: "panel-body" }),
-      _vm._v(" "),
-      _c("ul", { staticClass: "list-group" }, [
-        _c("li", { staticClass: "list-group-item" }, [
-          _c("p", { staticStyle: { color: "black" } }, [
-            _vm._v(
-              "\n  Lawrence Imeokparia holds Bachelor of Science degree and Master of Science in Accounting from the University of Lagos, Akoka, Yaba and Doctor of philosophy (PhD) from Babcock University, Ilishan, Remo. "
-            )
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", { staticClass: "list-group-item" }, [
-          _c("p", { staticStyle: { color: "black" } }, [
-            _vm._v(
-              " \n  Lawrence Imeokparia also holds membership of the following Professional Bodies: The Institute of Chartered of Accountants of Nigeria, The chartered Institute of Taxation of Nigeria and The Chartered institute of management of Nigeria. He is astute administrator with extensive experience in auditing and investigation, Taxation and Management Accounting. A prolific and experienced Lecturer, who is one of the leading professionals involved in the training of candidates for the examination of the Institute of chartered Accountant of Nigeria. He has also taught at many higher Institutions (Universities and polytechnics) both as full time and part- time Lecturer. His research interests are focused on strategic management Accounting, Strategic management, Performance management and International Accounting. He is currently the Head of Department of Economics, Accounting and Finance in the College of Management Sciences, Bells University of Technology, Ota, Ogun State, Nigeria.\n  "
-            )
-          ])
-        ])
-      ])
-    ])
-  }
-]
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-67c5d868", module.exports)
-  }
-}
-
-/***/ }),
-/* 89 */
+/* 86 */,
+/* 87 */,
+/* 88 */,
+/* 89 */,
+/* 90 */,
+/* 91 */,
+/* 92 */,
+/* 93 */,
+/* 94 */,
+/* 95 */,
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var normalizeComponent = __webpack_require__(0)
@@ -47779,67 +48036,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources/assets/js/components/ImeokpariaResearch.vue"
-
-module.exports = Component.exports
-
-
-/***/ }),
-/* 90 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var normalizeComponent = __webpack_require__(0)
-/* script */
-var __vue_script__ = null
-/* template */
-var __vue_template__ = null
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "resources/assets/js/components/ImeokpariaTeaching.vue"
-
-module.exports = Component.exports
-
-
-/***/ }),
-/* 91 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var normalizeComponent = __webpack_require__(0)
-/* script */
-var __vue_script__ = null
-/* template */
-var __vue_template__ = null
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "resources/assets/js/components/ImeokpariaServices.vue"
+Component.options.__file = "resources/assets/js/components/AdegbiteServices.vue"
 
 module.exports = Component.exports
 

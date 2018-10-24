@@ -24,6 +24,7 @@ Route::get('/courses', 'IndexController@courses')->name('courses');
 Route::get('/gallery', 'IndexController@gallery')->name('gallery');
 Route::get('welcome', 'IndexController@welcome')->name('welcome');
 Route::get('/team', 'IndexController@team')->name('team');
+Route::get('/curriculum', 'IndexController@curriculum')->name('curriculum');
 Route::get('/RequestInformation', 'IndexController@RequestInformation')->name('RequestInformation');
 Route::post('/RequestInformation', 'RequestInformationController@create')->name('RequestInformation.submit');
 // Route::get('/testimonals', 'IndexController@testimonals')->name('testimonals');
@@ -40,6 +41,7 @@ Route::get('/staffPages/gcDaramola', 'StaffController@gcDaramola')->name('gcDara
 Route::get('/staffPages/mkOnifade', 'StaffController@mkOnifade')->name('mkOnifade');
 Route::get('/staffpages/cfNwoye', 'StaffController@cfNwoye')->name('cfNwoye');
 Route::get('/staffpages/limeokparia', 'StaffController@limeokparia')->name('limeokparia');
+Route::get('/staffpages/ydAdegbite', 'StaffController@ydAdegbite')->name('ydAdegbite');
 
 // Routes to get departments page
 Route::get('/departments/accounting', 'DepartmentController@accounting')->name('accounting');
