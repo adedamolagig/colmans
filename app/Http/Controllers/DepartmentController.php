@@ -30,4 +30,9 @@ class DepartmentController extends Controller
     {
     	return view('departments.ProjectMgt');
     }
+
+    public function businessCurriculum()
+    {
+        return view('departments.businessCurriculum');
+    } 
 }

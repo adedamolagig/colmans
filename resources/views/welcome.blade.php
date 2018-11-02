@@ -1,5 +1,24 @@
 @extends('layouts.master')
 
+@section('assets')
+    <link type="text/css" rel="stylesheet" href="css/blue.css" />
+	<link type="text/css" rel="stylesheet" href="css/print.css" media="print"/>
+	<!--[if IE 7]>
+	<link href="css/ie7.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+	<!--[if IE 6]>
+	<link href="css/ie6.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tipsy.js"></script>
+	<script type="text/javascript" src="js/cufon.yui.js"></script>
+	<script type="text/javascript" src="js/scrollTo.js"></script>
+	<script type="text/javascript" src="js/myriad.js"></script>
+	<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<script type="text/javascript"></script>
+@endsection
+
 @section('body')
     
     @include('layouts.navbar')

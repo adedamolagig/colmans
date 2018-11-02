@@ -25,6 +25,7 @@ Route::get('/gallery', 'IndexController@gallery')->name('gallery');
 Route::get('welcome', 'IndexController@welcome')->name('welcome');
 Route::get('/team', 'IndexController@team')->name('team');
 Route::get('/curriculum', 'IndexController@curriculum')->name('curriculum');
+
 Route::get('/RequestInformation', 'IndexController@RequestInformation')->name('RequestInformation');
 Route::post('/RequestInformation', 'RequestInformationController@create')->name('RequestInformation.submit');
 // Route::get('/testimonals', 'IndexController@testimonals')->name('testimonals');
@@ -49,6 +50,7 @@ Route::get('/departments/BusAdmin', 'DepartmentController@businessAdministration
 Route::get('/departments/economics', 'DepartmentController@economics')->name('economics');
 Route::get('/departments/finance', 'DepartmentController@finance')->name('finance');
 Route::get('/departments/Project_Management', 'DepartmentController@projectManagement')->name('ProjMgt');
+Route::get('/departments/businessCurriculum', 'DepartmentController@businessCurriculum')->name('businessCurriculum');
 
 
 

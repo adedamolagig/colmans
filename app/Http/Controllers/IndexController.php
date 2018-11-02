@@ -56,4 +56,8 @@ class IndexController extends Controller
         return view('curriculum');
     }
     
+   public function businessCurriculum()
+    {
+        return view('department.businessCurriculum');
+    } 
 }

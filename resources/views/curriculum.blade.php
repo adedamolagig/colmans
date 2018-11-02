@@ -9,7 +9,7 @@
 			<div class="agileinfo_services_grids">
 				<div class="col-md-4 agileinfo_services_grid">
 					<div class="agileinfo_services_grid_left">
-						<a  href="{{ route('team') }}"><h1>Business Administration</h1></a>
+						<a  href="{{ route('businessCurriculum') }}"><h1>Business Administration</h1></a>
 					</div>
 					<div class="agileinfo_services_grid_right">
 						<span class="fa fa-university fa-4x" aria-hidden="true"></span>
